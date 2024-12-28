@@ -1,4 +1,4 @@
-# ESP32 Vehicle Data Streaming using ESP-NOW and ELM327 with Bluetooth
+# ESP32 Vehicle Data Streaming with ELM327, Bluetooth, and ESP-NOW (Arduino Framework)
 
 This project demonstrates using an ESP32 to collect and transmit vehicle data such as ethanol percentage, manifold pressure, and intake air temperature. The data is read via an ELM327 OBD-II scanner over Bluetooth, processed on the ESP32, and sent wirelessly to another ESP32 using ESP-NOW.
 
@@ -34,5 +34,3 @@ This project demonstrates using an ESP32 to collect and transmit vehicle data su
 
 4. **Real-Time Updates**:
    - Data is collected and transmitted in near real-time with configurable intervals.
-
----
